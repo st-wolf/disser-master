@@ -5,12 +5,16 @@
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english, russian]{babel}
+\usepackage{amsthm}
 
 % Использовать полужирное начертание для векторов
 \let\vec=\mathbf
 
 % Включать подсекции в оглавление
 \setcounter{tocdepth}{2}
+
+\newtheorem{theorem}{Теорема}
+\newtheorem{proposition}{Утверждение}
 
 \begin{document}
 
@@ -19,6 +23,7 @@
 \tableofcontents
 
 \input{intro}
+\input{analytical}
 
 \input{conclusion}
 
