@@ -2,16 +2,22 @@
 
 \usepackage[a4paper, includefoot, left=3cm, right=1cm, top=2cm, bottom=2cm, headsep=1cm, footskip=1cm]{geometry}
 
+\pagestyle{footcenter}
+\chapterpagestyle{footcenter}
+
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[english, russian]{babel}
 \usepackage{amsthm}
+
 
 % Использовать полужирное начертание для векторов
 \let\vec=\mathbf
 
 % Включать подсекции в оглавление
 \setcounter{tocdepth}{2}
+
+\newcommand{\diag}{\mathop{\mathrm{diag}}}
 
 \newtheorem{theorem}{Теорема}
 \newtheorem{proposition}{Утверждение}

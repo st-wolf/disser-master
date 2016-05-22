@@ -1,0 +1,5567 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.3.0.532 (R2014a). Operating System: Linux 3.13.0-55-generic #94-Ubuntu SMP Thu Jun 18 00:27:10 UTC 2015 x86_64.
+%%Title: /home/mikhail/dynamics/writing/conf_sp/pres/OA1B1A-1.eps
+%%CreationDate: 01/31/2016  19:53:48
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:    69   318   541   474
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    69   318   541   474
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0828 5688 csm
+
+    0     0  5664  1872 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 5665 1873 rf
+6 w
+0 1460 1896 0 0 -1460 736 1666 4 MP
+PP
+-1896 0 0 1460 1896 0 0 -1460 736 1666 5 MP stroke
+4 w
+DO
+0 sg
+ 929 1666 mt  929  206 L
+ 929  206 mt  929  206 L
+1684 1666 mt 1684  206 L
+1684  206 mt 1684  206 L
+2438 1666 mt 2438  206 L
+2438  206 mt 2438  206 L
+ 736 1462 mt 2632 1462 L
+2632 1462 mt 2632 1462 L
+ 736  936 mt 2632  936 L
+2632  936 mt 2632  936 L
+ 736  409 mt 2632  409 L
+2632  409 mt 2632  409 L
+SO
+6 w
+ 736 1666 mt 2632 1666 L
+ 736 1666 mt  736  206 L
+ 929 1666 mt  929 1647 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+ 826 1811 mt 
+(-5) s
+1684 1666 mt 1684 1647 L
+1651 1811 mt 
+(0) s
+2438 1666 mt 2438 1647 L
+2405 1811 mt 
+(5) s
+ 736 1462 mt  754 1462 L
+ 565 1506 mt 
+(-5) s
+ 736  936 mt  754  936 L
+ 635  980 mt 
+(0) s
+ 736  409 mt  754  409 L
+ 635  453 mt 
+(5) s
+gs 736 206 1897 1461 rc
+12 w
+/c8 { 1.000000 0.000000 0.000000 sr} bdef
+c8
+0 -1461 736 1667 2 MP stroke
+0 -1461 1210 1667 2 MP stroke
+0 -1461 1684 1667 2 MP stroke
+0 -1461 2158 1667 2 MP stroke
+0 -1461 2632 1667 2 MP stroke
+24 w
+0 sg
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 1 -1 
+1 0 1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 -1 
+1 0 1 -1 1 -1 2334 1022 300 MP stroke
+1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 0 1 -1 
+1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 0 1 -1 
+1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 -1 1 0 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 0 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 0 -1 2 -2 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 
+1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 1 -1 
+0 -1 2 -2 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 
+1 -1 0 -1 2 -2 1 -1 0 -1 2 -2 1 -1 1 -1 
+0 -1 2 -2 1 -1 0 -1 2 -2 1 -1 0 -1 2 -2 
+1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 2 -2 1 -1 
+0 -1 2 -2 1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 
+2 -2 1 -1 0 -1 2 -2 1 -1 1 -1 1 -1 0 -1 
+2 -2 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 
+1 0 1 -1 1 -1 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 
+1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 0 1 2 2 1 1 1 1 0 1 
+2 2 1 1 0 1 2 2 1 1 0 1 2 2 0 1 
+2 2 0 1 2 2 1 1 1 1 0 2 2 2 0 1 
+2 2 0 1 2 2 0 1 2 2 0 1 2 2 1 1 
+0 2 2 2 0 1 2 2 1 1 0 2 2 2 0 1 
+2 2 1 1 0 2 2 2 0 1 2 2 1 1 0 2 
+2 2 0 1 2 2 1 1 0 2 2 2 0 1 2 2 
+1 1 0 2 2 2 0 1 2 2 0 1 2 2 1 1 
+0 2 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 1 1 0 1 2 2 0 1 
+2 2 1 1 0 1 2036 1016 300 MP stroke
+2 2 0 1 2 2 1 1 0 1 2 2 0 1 2 2 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 0 1 
+2 2 0 1 2 2 1 1 0 1 2 2 1 1 0 1 
+2 2 1 1 0 1 2 2 1 1 1 1 0 1 2 2 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 0 1 
+2 2 1 1 1 1 0 1 2 2 1 1 0 1 2 2 
+1 1 0 1 2 2 1 1 1 1 0 1 2 2 1 1 
+0 1 2 2 1 1 1 1 0 1 2 2 1 1 0 1 
+2 2 1 1 0 1 2 2 1 1 1 1 0 1 2 2 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 1 1 
+0 1 2 2 1 1 0 1 2 2 1 1 0 1 2 2 
+1 1 1 1 0 1 2 2 0 1 2 2 1 1 1 1 
+0 1 2 2 1 1 0 1 2 2 0 1 2 2 1 1 
+0 1 2 2 1 1 0 1 2 2 1 1 0 1 2 2 
+0 1 2 2 1 1 0 1 2 2 0 1 2 2 0 1 
+2 2 1 1 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+1 1 0 2 2 2 0 1 2 2 1 1 0 2 2 2 
+1 1 0 2 2 2 1 1 0 2 2 2 0 1 2 2 
+0 2 2 2 0 1 2 2 0 2 2 2 0 2 2 2 
+1 1 0 2 2 2 0 2 2 2 0 2 2 2 0 2 
+2 2 0 2 2 2 0 2 1 1 0 2 2 2 0 2 
+2 2 0 2 1 1 0 2 2 2 0 2 1 1 0 2 
+2 2 0 3 2 2 0 3 2 2 0 3 2 2 0 2 
+1 1 0 3 2 2 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 3 
+1 1 0 3 1 1 0 3 1 1 0 3 1 1 0 3 
+1 1 0 3 1 1 0 3 1 1 0 3 1 1 0 3 
+1 1 0 4 1 1 0 3 1 1 0 3 1 1 0 4 
+1 1 0 4 1 1 0 3 1 1 0 4 1 1 0 4 
+1 1 0 3 1 1 0 4 1 1 0 4 1 1 0 4 
+1 1 0 4 1 1 0 4 1 1 0 4 1 1 0 4 
+1 1 0 5 1 1 0 4 1 1 0 4 1 1 0 5 
+1 1 0 4 1 1 1792 512 300 MP stroke
+0 5 1 1 0 4 1 1 0 5 1 1 0 4 1 1 
+0 5 1 1 0 4 1 1 0 5 1 1 0 5 1 1 
+0 4 1 1 0 5 1 1 0 5 1 1 0 5 1 1 
+0 4 1 1 0 5 1 1 0 4 1 1 0 5 1 1 
+0 4 1 1 0 5 1 1 0 4 1 1 0 5 1 1 
+0 4 1 1 0 4 1 1 0 4 1 1 0 4 1 1 
+0 3 1 1 0 4 1 1 0 4 1 1 0 3 1 1 
+0 3 1 1 0 3 1 1 0 3 1 1 0 2 1 1 
+0 2 1 1 0 2 1 1 0 3 2 2 0 2 1 1 
+0 1 2 2 1 1 1 1 1 1 1 0 1 0 1 -1 
+1 -1 1 -1 0 -2 2 -2 0 -2 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -3 1 -1 0 -3 1 -1 0 -3 1 -1 
+0 -5 1 -1 0 -4 1 -1 0 -5 1 -1 0 -5 1 -1 
+0 -5 1 -1 0 -6 1 -1 0 -6 1 -1 0 -7 1 -1 
+0 -7 1 -1 0 -7 1 -1 0 -8 1 -1 0 -8 1 -1 
+0 -8 1 -1 0 -9 1 -1 0 -8 1 -1 0 -10 1 -1 
+0 -9 1 -1 0 -9 1 -1 0 -10 1 -1 0 -10 1 -1 
+0 -10 1 -1 0 -10 1 -1 0 -10 1 -1 0 -11 1 -1 
+0 -11 1 -1 0 -10 1 -1 0 -11 1 -1 0 -11 1 -1 
+0 -11 1 -1 0 -11 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -11 1 -1 0 -12 1 -1 0 -11 1 -1 
+0 -12 1 -1 0 -11 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -12 1 -1 0 -11 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -12 1 -1 0 -11 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -12 1 -1 0 -11 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -12 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -12 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -12 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -12 1 -1 0 -11 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -12 1 -1 0 -11 1 -1 0 -11 1 -1 
+0 -12 1 -1 0 -12 1 -1 0 -10 1 -1 0 -12 1 -1 
+0 -11 1 -1 0 -12 1 -1 0 -10 1 -1 0 -11 1 -1 
+0 -12 1 -1 0 -11 1 -1 0 -10 1 -1 0 -11 1 -1 
+0 -10 1 -1 0 -11 1 -1 0 -10 1 -1 0 -10 1 -1 
+0 -10 1 -1 0 -10 1 -1 0 -9 1 -1 0 -9 1 -1 
+0 -9 1 -1 0 -9 1 -1 0 -8 1 -1 0 -8 1 -1 
+0 -8 1 -1 0 -8 1 -1 0 -7 1 -1 0 -7 1 -1 
+0 -7 1 -1 0 -6 1636 1479 300 MP stroke
+1 -1 0 -6 1 -1 0 -6 1 -1 0 -5 1 -1 0 -5 
+1 -1 0 -4 1 -1 0 -4 1 -1 0 -3 1 -1 0 -4 
+1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 0 -1 
+1 -1 0 -2 2 -2 1 -1 1 -1 1 -1 1 0 1 0 
+1 1 1 1 1 1 0 2 2 2 0 2 2 2 0 2 
+1 1 0 2 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 3 1 1 0 4 1 1 0 3 
+1 1 0 4 1 1 0 3 1 1 0 4 1 1 0 4 
+1 1 0 5 1 1 0 4 1 1 0 4 1 1 0 4 
+1 1 0 5 1 1 0 4 1 1 0 5 1 1 0 5 
+1 1 0 4 1 1 0 5 1 1 0 4 1 1 0 5 
+1 1 0 5 1 1 0 4 1 1 0 5 1 1 0 5 
+1 1 0 4 1 1 0 5 1 1 0 5 1 1 0 4 
+1 1 0 5 1 1 0 4 1 1 0 5 1 1 0 4 
+1 1 0 4 1 1 0 4 1 1 0 5 1 1 0 4 
+1 1 0 4 1 1 0 4 1 1 0 4 1 1 0 4 
+1 1 0 4 1 1 0 4 1 1 0 4 1 1 0 4 
+1 1 0 3 1 1 0 4 1 1 0 3 1 1 0 4 
+1 1 0 3 1 1 0 4 1 1 0 3 1 1 0 3 
+1 1 0 3 1 1 0 3 1 1 0 4 1 1 0 3 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 3 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 1 1 1 0 2 
+1 1 0 2 1 1 0 3 2 2 0 2 1 1 0 3 
+2 2 0 3 2 2 0 3 2 2 0 3 2 2 0 2 
+1 1 0 1 1 1 0 2 2 2 0 2 1 1 0 2 
+2 2 0 2 2 2 0 3 2 2 0 2 2 2 0 2 
+2 2 0 2 2 2 0 2 2 2 0 2 2 2 1 1 
+0 2 2 2 0 2 2 2 0 1 2 2 0 2 2 2 
+0 1 2 2 0 2 2 2 0 1 2 2 1 1 0 2 
+2 2 1 1 0 2 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 1 1 0 1 
+2 2 0 1 2 2 1 1 0 1 2 2 0 1 2 2 
+1 1 0 1 2 2 1439 998 300 MP stroke
+1 1 0 1 2 2 0 1 2 2 1 1 0 1 2 2 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 0 1 
+2 2 1 1 0 1 2 2 1 1 1 1 0 1 2 2 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 1 1 
+0 1 2 2 1 1 0 1 2 2 1 1 0 1 2 2 
+1 1 1 1 0 1 2 2 1 1 0 1 2 2 1 1 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 0 1 
+2 2 1 1 1 1 0 1 2 2 1 1 0 1 2 2 
+1 1 1 1 0 1 2 2 1 1 0 1 2 2 1 1 
+0 1 2 2 1 1 0 1 2 2 1 1 0 1 2 2 
+1 1 1 1 0 1 2 2 0 1 2 2 1 1 0 1 
+2 2 1 1 0 1 2 2 1 1 0 1 2 2 1 1 
+0 1 2 2 1 1 0 1 2 2 0 1 2 2 1 1 
+0 1 2 2 0 1 2 2 1 1 0 1 2 2 0 1 
+2 2 0 1 2 2 1 1 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 0 1 2 2 0 1 2 2 0 1 2 2 
+0 1 2 2 1 1 0 2 2 2 0 1 2 2 0 1 
+2 2 0 1 2 2 1 1 0 2 2 2 0 1 2 2 
+1 1 0 2 2 2 0 1 2 2 1 1 0 2 2 2 
+0 1 2 2 1 1 0 2 2 2 1 1 0 2 2 2 
+0 1 2 2 1 1 0 2 2 2 0 1 2 2 0 1 
+2 2 0 1 2 2 1 1 0 2 2 2 0 1 2 2 
+0 1 2 2 1 1 0 1 2 2 0 1 2 2 0 1 
+2 2 1 1 0 1 2 2 1 1 0 1 2 2 1 1 
+1 1 0 1 2 2 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 
+1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 0 
+1 1 1 0 1 0 1 0 1 0 1 1 1 0 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 0 1 -1 
+1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 0 -1 
+2 -2 1 -1 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 
+1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 2 -2 1 -1 
+1 -1 0 -1 2 -2 1140 737 300 MP stroke
+1 -1 0 -1 2 -2 1 -1 0 -1 2 -2 1 -1 0 -1 
+2 -2 1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 2 -2 
+1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 2 -2 1 -1 
+0 -1 2 -2 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 
+0 -1 2 -2 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 
+1 -1 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 0 -1 2 -2 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 0 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 
+1 -1 1 0 1 -1 1 -1 1 -1 1 -1 1 0 1 -1 
+1 -1 1 0 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 
+1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 0 1 -1 
+1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 0 1 -1 
+1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 0 1 0 
+1 0 1 -1 1 0 841 913 300 MP stroke
+1 0 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 0 1 0 
+1 0 1 0 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 0 1 0 1 0 
+1 0 736 924 106 MP stroke
+gr
+
+24 w
+ 658  111 mt 
+(Parameters: omega = -1, alpha = -0.2) s
+6 w
+1 sg
+0 1460 1896 0 0 -1460 3230 1666 4 MP
+PP
+-1896 0 0 1460 1896 0 0 -1460 3230 1666 5 MP stroke
+4 w
+DO
+0 sg
+3261 1666 mt 3261  206 L
+3261  206 mt 3261  206 L
+3725 1666 mt 3725  206 L
+3725  206 mt 3725  206 L
+4188 1666 mt 4188  206 L
+4188  206 mt 4188  206 L
+4651 1666 mt 4651  206 L
+4651  206 mt 4651  206 L
+5114 1666 mt 5114  206 L
+5114  206 mt 5114  206 L
+3230 1436 mt 5126 1436 L
+5126 1436 mt 5126 1436 L
+3230  937 mt 5126  937 L
+5126  937 mt 5126  937 L
+3230  437 mt 5126  437 L
+5126  437 mt 5126  437 L
+SO
+6 w
+3230 1666 mt 5126 1666 L
+3230 1666 mt 3230  206 L
+3261 1666 mt 3261 1647 L
+3158 1811 mt 
+(-1) s
+3725 1666 mt 3725 1647 L
+3572 1811 mt 
+(-0.5) s
+4188 1666 mt 4188 1647 L
+4155 1811 mt 
+(0) s
+4651 1666 mt 4651 1647 L
+4568 1811 mt 
+(0.5) s
+5114 1666 mt 5114 1647 L
+5081 1811 mt 
+(1) s
+3230 1436 mt 3248 1436 L
+3059 1480 mt 
+(-5) s
+3230  937 mt 3248  937 L
+3129  981 mt 
+(0) s
+3230  437 mt 3248  437 L
+3129  481 mt 
+(5) s
+gs 3230 206 1897 1461 rc
+24 w
+c8
+0 -631 4188 837 2 MP stroke
+0 630 4188 1037 2 MP stroke
+6 w
+gr
+
+c8
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+0 sg
+  30   30 4188  222 PO
+/c9 { 0.000000 0.000000 1.000000 sr} bdef
+c9
+  30   30 4188  222 FO
+gr
+
+c9
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+0 sg
+  30   30 4188 1621 PO
+  30   30 4188  294 PO
+  30   30 4188 1552 PO
+  30   30 4188  361 PO
+  30   30 4188  388 PO
+  30   30 4188 1448 PO
+  30   30 4188  451 PO
+  30   30 4188 1387 PO
+  30   30 4188 1363 PO
+  30   30 4188  545 PO
+  30   30 4188 1308 PO
+  30   30 4188  598 PO
+  30   30 5047  711 PO
+  30   30 5047 1163 PO
+  30   30 4188  611 PO
+  30   30 4188 1231 PO
+  30   30 4188  937 PO
+  30   30 4188 1226 PO
+  30   30 4188  675 PO
+  30   30 4188  692 PO
+  30   30 4188  713 PO
+  30   30 4188 1143 PO
+  30   30 4188  763 PO
+  30   30 4188  748 PO
+  30   30 4188  836 PO
+  30   30 4188  834 PO
+  30   30 4263 1058 PO
+  30   30 4263  816 PO
+  30   30 4188  790 PO
+  30   30 4188  778 PO
+  30   30 4188 1044 PO
+  30   30 4188  825 PO
+  30   30 4188  805 PO
+  30   30 4188  811 PO
+c9
+  30   30 4188 1621 FO
+  30   30 4188  294 FO
+  30   30 4188 1552 FO
+  30   30 4188  361 FO
+  30   30 4188  388 FO
+  30   30 4188 1448 FO
+  30   30 4188  451 FO
+  30   30 4188 1387 FO
+  30   30 4188 1363 FO
+  30   30 4188  545 FO
+  30   30 4188 1308 FO
+  30   30 4188  598 FO
+  30   30 5047  711 FO
+  30   30 5047 1163 FO
+  30   30 4188  611 FO
+  30   30 4188 1231 FO
+  30   30 4188  937 FO
+  30   30 4188 1226 FO
+  30   30 4188  675 FO
+  30   30 4188  692 FO
+  30   30 4188  713 FO
+  30   30 4188 1143 FO
+  30   30 4188  763 FO
+  30   30 4188  748 FO
+  30   30 4188  836 FO
+  30   30 4188  834 FO
+  30   30 4263 1058 FO
+  30   30 4263  816 FO
+  30   30 4188  790 FO
+  30   30 4188  778 FO
+  30   30 4188 1044 FO
+  30   30 4188  825 FO
+  30   30 4188  805 FO
+  30   30 4188  811 FO
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+0 sg
+  30   30 4188 1651 PO
+c9
+  30   30 4188 1651 FO
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+gs 3268 144 1841 1585 rc
+0 sg
+  30   30 4188  252 PO
+  30   30 4188 1580 PO
+  30   30 4188  322 PO
+  30   30 4188 1512 PO
+  30   30 4188 1485 PO
+  30   30 4188  426 PO
+  30   30 4188 1422 PO
+  30   30 4188  487 PO
+  30   30 4188  511 PO
+  30   30 4188 1329 PO
+  30   30 4188  565 PO
+  30   30 4188 1275 PO
+  30   30 3329 1163 PO
+  30   30 3329  711 PO
+  30   30 4188 1262 PO
+  30   30 4188  642 PO
+  30   30 4188  937 PO
+  30   30 4188  648 PO
+  30   30 4188 1199 PO
+  30   30 4188 1181 PO
+  30   30 4188 1161 PO
+  30   30 4188  731 PO
+  30   30 4188 1110 PO
+  30   30 4188 1125 PO
+  30   30 4188 1037 PO
+  30   30 4188 1040 PO
+  30   30 4113  816 PO
+  30   30 4113 1058 PO
+  30   30 4188 1084 PO
+  30   30 4188 1095 PO
+  30   30 4188  829 PO
+  30   30 4188 1048 PO
+  30   30 4188 1068 PO
+  30   30 4188 1063 PO
+c9
+  30   30 4188  252 FO
+  30   30 4188 1580 FO
+  30   30 4188  322 FO
+  30   30 4188 1512 FO
+  30   30 4188 1485 FO
+  30   30 4188  426 FO
+  30   30 4188 1422 FO
+  30   30 4188  487 FO
+  30   30 4188  511 FO
+  30   30 4188 1329 FO
+  30   30 4188  565 FO
+  30   30 4188 1275 FO
+  30   30 3329 1163 FO
+  30   30 3329  711 FO
+  30   30 4188 1262 FO
+  30   30 4188  642 FO
+  30   30 4188  937 FO
+  30   30 4188  648 FO
+  30   30 4188 1199 FO
+  30   30 4188 1181 FO
+  30   30 4188 1161 FO
+  30   30 4188  731 FO
+  30   30 4188 1110 FO
+  30   30 4188 1125 FO
+  30   30 4188 1037 FO
+  30   30 4188 1040 FO
+  30   30 4113  816 FO
+  30   30 4113 1058 FO
+  30   30 4188 1084 FO
+  30   30 4188 1095 FO
+  30   30 4188  829 FO
+  30   30 4188 1048 FO
+  30   30 4188 1068 FO
+  30   30 4188 1063 FO
+gr
+
+gs 3230 206 1897 1461 rc
+gr
+
+0 sg
+3152  111 mt 
+(Parameters: omega = -1, alpha = -0.2) s
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF

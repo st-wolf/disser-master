@@ -1,0 +1,6462 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.3.0.532 (R2014a). Operating System: Linux 3.13.0-55-generic #94-Ubuntu SMP Thu Jun 18 00:27:10 UTC 2015 x86_64.
+%%Title: /home/mikhail/dynamics/writing/conf_sp/pres/OA1OA-1O.eps
+%%CreationDate: 01/31/2016  19:12:12
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:    69   306   541   485
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    69   306   541   485
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0828 5820 csm
+
+    0     0  5664  2141 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 5665 2142 rf
+6 w
+0 1699 1897 0 0 -1699 735 1905 4 MP
+PP
+-1897 0 0 1699 1897 0 0 -1699 735 1905 5 MP stroke
+4 w
+DO
+0 sg
+ 929 1905 mt  929  206 L
+ 929  206 mt  929  206 L
+1684 1905 mt 1684  206 L
+1684  206 mt 1684  206 L
+2438 1905 mt 2438  206 L
+2438  206 mt 2438  206 L
+ 735 1701 mt 2632 1701 L
+2632 1701 mt 2632 1701 L
+ 735 1378 mt 2632 1378 L
+2632 1378 mt 2632 1378 L
+ 735 1055 mt 2632 1055 L
+2632 1055 mt 2632 1055 L
+ 735  732 mt 2632  732 L
+2632  732 mt 2632  732 L
+ 735  409 mt 2632  409 L
+2632  409 mt 2632  409 L
+SO
+6 w
+ 735 1905 mt 2632 1905 L
+ 735 1905 mt  735  206 L
+ 929 1905 mt  929 1886 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+ 826 2050 mt 
+(-5) s
+1684 1905 mt 1684 1886 L
+1651 2050 mt 
+(0) s
+2438 1905 mt 2438 1886 L
+2405 2050 mt 
+(5) s
+ 735 1701 mt  754 1701 L
+ 565 1745 mt 
+(-2) s
+ 735 1378 mt  754 1378 L
+ 565 1422 mt 
+(-1) s
+ 735 1055 mt  754 1055 L
+ 635 1099 mt 
+(0) s
+ 735  732 mt  754  732 L
+ 635  776 mt 
+(1) s
+ 735  409 mt  754  409 L
+ 635  453 mt 
+(2) s
+gs 736 206 1897 1700 rc
+12 w
+/c8 { 1.000000 0.000000 0.000000 sr} bdef
+c8
+0 -1700 1210 1906 2 MP stroke
+0 -1700 1684 1906 2 MP stroke
+0 -1700 2158 1906 2 MP stroke
+0 -1700 2632 1906 2 MP stroke
+24 w
+0 sg
+1 0 1 0 1 0 1 -1 1 0 1 0 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 -1 1 0 
+1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 0 
+1 -1 1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 -1 
+1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 0 1 -1 
+1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 0 1 -1 
+1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 -1 1 0 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 0 -1 2 -2 1 -1 1 -1 1 -1 1 -1 0 -1 
+2 -2 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 
+0 -1 2 -2 1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 
+2 -2 0 -1 2 -2 1 -1 0 -1 2 -2 0 -1 2 -2 
+0 -1 2 -2 1 -1 0 -1 2 -2 1 -1 0 -2 2 -2 
+0 -1 2 -2 0 -1 2 -2 1 -1 0 -2 2 -2 1 -1 
+0 -2 2 -2 1 -1 0 -2 2 -2 1 -1 0 -2 2 -2 
+0 -2 2 -2 1 -1 2334 1296 300 MP stroke
+0 -2 2 -2 0 -2 2 -2 0 -2 2 -2 1 -1 0 -2 
+2 -2 0 -2 2 -2 0 -2 2 -2 0 -2 2 -2 0 -2 
+1 -1 0 -2 2 -2 0 -2 2 -2 0 -2 2 -2 0 -3 
+2 -2 0 -2 2 -2 0 -2 1 -1 0 -2 2 -2 0 -2 
+1 -1 0 -2 2 -2 0 -3 2 -2 0 -3 2 -2 0 -3 
+2 -2 0 -3 2 -2 0 -3 2 -2 0 -2 1 -1 0 -3 
+2 -2 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -1 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 2 -2 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 
+1 -1 0 -2 1 -1 0 -3 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -3 
+1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -3 1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -3 2 -2 0 -2 1 -1 0 -3 
+2 -2 0 -3 2 -2 0 -3 2 -2 0 -2 2 -2 0 -3 
+2 -2 0 -2 2 -2 0 -1 2 -2 0 -2 2 -2 0 -1 
+2 -2 1 -1 0 -1 2 -2 1 -1 1 -1 1 -1 1 -1 
+1 0 1 -1 1 -1 1 0 1 -1 1 0 1 -1 1 0 
+1 0 1 0 1 0 1 0 1 1 1 0 1 0 1 1 
+1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 0 1 2 2 1 1 0 2 2 2 0 1 2 2 
+0 2 2 2 0 2 2133 1736 300 MP stroke
+2 2 0 2 2 2 0 3 2 2 0 2 1 1 0 1 
+1 1 0 2 1 1 0 1 1 1 0 3 2 2 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 3 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 3 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 2 1 1 0 3 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 3 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 3 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 2 
+1 1 0 2 1 1 0 3 2 2 0 2 1 1 0 2 
+1 1 0 2 1 1 0 2 1 1 0 2 1 1 0 1 
+1 1 0 2 1 1 0 3 2 2 0 2 1 1 0 3 
+2 2 0 3 2 2 0 3 2 2 0 3 2 2 0 3 
+2 2 0 3 2 2 0 2 1 1 0 2 2 2 0 3 
+2 2 0 2 2 2 0 3 2 2 0 2 2 2 0 2 
+1 1 0 1 1 1 0 2 2 2 0 2 2 2 0 2 
+2 2 0 2 2 2 0 2 2 2 0 2 2 2 0 2 
+2 2 0 2 2 2 0 2 2 2 1 1 0 2 2 2 
+0 2 2 2 0 1 2 2 0 2 2 2 1 1 0 2 
+2 2 1 1 0 2 2 2 0 1 2 2 0 1 2 2 
+1 1 0 2 2 2 0 1 2 2 0 1 2 2 0 1 
+2 2 1 1 0 1 2 2 0 1 2 2 0 1 2 2 
+1 1 0 1 2 2 1 1 0 1 2 2 1 1 0 1 
+2 2 1 1 1 1 1934 1223 300 MP stroke
+0 1 2 2 1 1 1 1 0 1 2 2 1 1 1 1 
+1 1 1 1 0 1 2 2 1 1 1 1 1 1 1 1 
+1 1 0 1 2 2 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 
+1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 
+1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 
+1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 
+1 0 1 1 1 1 1 1 1 0 1 1 1 1 1 0 
+1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 
+1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 
+1 1 1 1 1 0 1 1 1 1 1 0 1 1 1 0 
+1 1 1 1 1 0 1 1 1 0 1 1 1 1 1 0 
+1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1 
+1 1 1 0 1 1 1 0 1 1 1 1 1 0 1 1 
+1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 0 1 1 
+1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 
+1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 
+1 0 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 0 1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 1635 1034 300 MP stroke
+1 0 1 1 1 0 1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 1 1 1 0 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 0 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 0 1 1 1 1 1 0 1 1 1 0 
+1 1 1 0 1 1 1 1 1 0 1 1 1 0 1 1 
+1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 
+1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 
+1 0 1 1 1 1 1 0 1 1 1 1 1 0 1 1 
+1 1 1 0 1 1 1 1 1 0 1 1 1 1 1 0 
+1 1 1 1 1 1 1 0 1 1 1 1 1 0 1 1 
+1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 1 
+1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 
+1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 
+1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 
+2 2 1 1 1 1 1 1 1 1 1 1 0 1 2 2 
+1 1 1 1 1 1 0 1 2 2 1 1 1 1 1 1 
+0 1 2 2 1 1 0 1 2 2 1 1 1 1 0 1 
+2 2 1 1 0 1 2 2 0 1 2 2 1 1 0 1 
+2 2 0 1 2 2 1 1 0 1 2 2 0 1 2 2 
+0 1 2 2 1 1 0 2 2 2 0 1 2 2 0 1 
+2 2 1 1 0 2 2 2 1 1 0 2 2 2 0 1 
+2 2 0 2 2 2 1 1 0 2 2 2 0 2 2 2 
+1 1 0 2 2 2 0 2 2 2 0 2 2 2 0 2 
+2 2 0 2 2 2 0 2 2 2 0 2 2 2 0 2 
+2 2 0 2 2 2 0 2 1 1 0 2 2 2 0 2 
+2 2 0 3 2 2 0 2 2 2 0 2 1 1 0 2 
+2 2 0 3 2 2 0 3 2 2 0 3 2 2 0 3 
+2 2 0 3 2 2 0 3 2 2 0 2 1 1 0 3 
+2 2 0 2 1 1 1340 713 300 MP stroke
+0 2 1 1 0 2 1 1 0 1 1 1 0 2 1 1 
+0 2 1 1 0 2 1 1 0 3 2 2 0 2 1 1 
+0 2 1 1 0 2 1 1 0 2 1 1 0 2 1 1 
+0 2 1 1 0 2 1 1 0 2 1 1 0 2 1 1 
+0 2 1 1 0 2 1 1 0 2 1 1 0 3 1 1 
+0 2 1 1 0 2 1 1 0 2 1 1 0 2 1 1 
+0 3 1 1 0 2 1 1 0 2 1 1 0 2 1 1 
+0 3 1 1 0 2 1 1 0 2 1 1 0 3 1 1 
+0 2 1 1 0 3 1 1 0 2 1 1 0 2 1 1 
+0 3 1 1 0 2 1 1 0 3 1 1 0 2 1 1 
+0 3 1 1 0 2 1 1 0 3 1 1 0 2 1 1 
+0 3 1 1 0 2 1 1 0 3 1 1 0 3 1 1 
+0 2 1 1 0 3 1 1 0 2 1 1 0 3 1 1 
+0 3 1 1 0 2 1 1 0 3 1 1 0 2 1 1 
+0 3 1 1 0 3 1 1 0 2 1 1 0 3 1 1 
+0 3 1 1 0 2 1 1 0 3 1 1 0 2 1 1 
+0 3 1 1 0 3 1 1 0 2 1 1 0 3 1 1 
+0 2 1 1 0 3 1 1 0 2 1 1 0 3 1 1 
+0 2 1 1 0 3 1 1 0 2 1 1 0 3 1 1 
+0 2 1 1 0 2 1 1 0 3 1 1 0 2 1 1 
+0 2 1 1 0 3 1 1 0 2 1 1 0 2 1 1 
+0 2 1 1 0 2 1 1 0 2 1 1 0 2 1 1 
+0 2 1 1 0 2 1 1 0 2 1 1 0 2 1 1 
+0 2 1 1 0 3 2 2 0 2 1 1 0 2 1 1 
+0 1 1 1 0 2 1 1 0 2 2 2 0 3 2 2 
+0 2 2 2 0 2 2 2 0 2 2 2 1 1 0 2 
+2 2 0 1 2 2 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 0 1 1 1 0 1 0 
+1 1 1 0 1 0 1 0 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 
+0 -1 2 -2 1 -1 0 -1 2 -2 0 -1 2 -2 0 -2 
+2 -2 0 -1 2 -2 0 -2 2 -2 0 -3 2 -2 0 -2 
+2 -2 0 -3 2 -2 0 -3 2 -2 0 -2 1 -1 0 -3 
+2 -2 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 
+1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 
+1 -1 0 -2 1 -1 1155 455 300 MP stroke
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 
+0 -2 1 -1 0 -3 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -3 1 -1 
+0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -3 1 -1 0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 
+0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -2 1 -1 0 -3 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -3 2 -2 0 -2 1 -1 0 -2 1 -1 
+0 -2 1 -1 0 -2 1 -1 0 -1 1 -1 0 -2 1 -1 
+0 -3 2 -2 0 -2 1 -1 0 -3 2 -2 0 -3 2 -2 
+0 -3 2 -2 0 -3 2 -2 0 -3 2 -2 0 -2 1 -1 
+0 -2 2 -2 0 -2 1 -1 0 -2 2 -2 0 -3 2 -2 
+0 -2 2 -2 0 -2 1 -1 0 -2 2 -2 0 -2 2 -2 
+0 -2 2 -2 0 -2 1 -1 0 -2 2 -2 0 -2 2 -2 
+0 -2 2 -2 0 -2 2 -2 0 -1 2 -2 0 -2 2 -2 
+0 -2 2 -2 0 -2 2 -2 0 -1 2 -2 0 -2 2 -2 
+1 -1 0 -2 2 -2 1 -1 0 -2 2 -2 1 -1 0 -2 
+2 -2 0 -1 2 -2 1 -1 0 -2 2 -2 0 -1 2 -2 
+0 -1 2 -2 0 -1 2 -2 1 -1 0 -1 2 -2 0 -1 
+2 -2 1 -1 0 -1 2 -2 0 -1 2 -2 1 -1 0 -1 
+2 -2 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 0 -1 
+2 -2 1 -1 1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 
+1 -1 1 -1 0 -1 2 -2 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 0 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 
+1 -1 1 0 1 -1 936 933 300 MP stroke
+1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 -1 
+1 0 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 -1 
+1 0 1 -1 1 -1 1 -1 1 0 1 -1 1 -1 1 0 
+1 -1 1 -1 1 0 1 -1 1 -1 1 -1 1 0 1 -1 
+1 0 1 -1 1 -1 1 0 1 -1 1 -1 1 0 1 -1 
+1 -1 1 0 1 -1 1 0 1 -1 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 0 
+1 -1 1 0 1 -1 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 -1 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 -1 1 0 
+1 -1 1 0 1 -1 1 0 1 0 1 -1 1 0 1 -1 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 
+1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 
+1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 1 -1 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 -1 1 0 1 0 
+1 0 1 -1 1 0 1 0 1 0 1 0 1 -1 1 0 
+1 0 1 0 1 -1 1 0 1 0 1 0 1 0 1 -1 
+736 1023 201 MP stroke
+gr
+
+24 w
+ 658  111 mt 
+(Parameters: omega = -1, alpha = -0.2) s
+6 w
+1 sg
+0 1699 1896 0 0 -1699 3230 1905 4 MP
+PP
+-1896 0 0 1699 1896 0 0 -1699 3230 1905 5 MP stroke
+4 w
+DO
+0 sg
+3261 1905 mt 3261  206 L
+3261  206 mt 3261  206 L
+3721 1905 mt 3721  206 L
+3721  206 mt 3721  206 L
+4181 1905 mt 4181  206 L
+4181  206 mt 4181  206 L
+4641 1905 mt 4641  206 L
+4641  206 mt 4641  206 L
+5101 1905 mt 5101  206 L
+5101  206 mt 5101  206 L
+3230 1647 mt 5126 1647 L
+5126 1647 mt 5126 1647 L
+3230 1353 mt 5126 1353 L
+5126 1353 mt 5126 1353 L
+3230 1059 mt 5126 1059 L
+5126 1059 mt 5126 1059 L
+3230  765 mt 5126  765 L
+5126  765 mt 5126  765 L
+3230  471 mt 5126  471 L
+5126  471 mt 5126  471 L
+SO
+6 w
+3230 1905 mt 5126 1905 L
+3230 1905 mt 3230  206 L
+3261 1905 mt 3261 1886 L
+3108 2050 mt 
+(-0.2) s
+3721 1905 mt 3721 1886 L
+3568 2050 mt 
+(-0.1) s
+4181 1905 mt 4181 1886 L
+4148 2050 mt 
+(0) s
+4641 1905 mt 4641 1886 L
+4558 2050 mt 
+(0.1) s
+5101 1905 mt 5101 1886 L
+5018 2050 mt 
+(0.2) s
+3230 1647 mt 3248 1647 L
+3059 1691 mt 
+(-2) s
+3230 1353 mt 3248 1353 L
+3059 1397 mt 
+(-1) s
+3230 1059 mt 3248 1059 L
+3129 1103 mt 
+(0) s
+3230  765 mt 3248  765 L
+3129  809 mt 
+(1) s
+3230  471 mt 3248  471 L
+3129  515 mt 
+(2) s
+gs 3230 206 1897 1700 rc
+24 w
+c8
+0 -559 4181 765 2 MP stroke
+0 553 4181 1353 2 MP stroke
+6 w
+gr
+
+c8
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+0 sg
+  30   30 4181  285 PO
+  30   30 4181 1059 PO
+  30   30 4181 1118 PO
+  30   30 4181  328 PO
+  30   30 4181 1746 PO
+  30   30 4181  400 PO
+  30   30 4181  455 PO
+  30   30 4181 1615 PO
+  30   30 4181  763 PO
+  30   30 4181  548 PO
+  30   30 4181  627 PO
+  30   30 4181  746 PO
+  30   30 4181  756 PO
+  30   30 4181  731 PO
+  30   30 4181  688 PO
+  30   30 4181 1528 PO
+  30   30 4181  712 PO
+  30   30 4181  658 PO
+  30   30 4181  664 PO
+/c9 { 0.000000 0.000000 1.000000 sr} bdef
+c9
+  30   30 4181  285 FO
+  30   30 4181 1059 FO
+  30   30 4181 1118 FO
+  30   30 4181  328 FO
+  30   30 4181 1746 FO
+  30   30 4181  400 FO
+  30   30 4181  455 FO
+  30   30 4181 1615 FO
+  30   30 4181  763 FO
+  30   30 4181  548 FO
+  30   30 4181  627 FO
+  30   30 4181  746 FO
+  30   30 4181  756 FO
+  30   30 4181  731 FO
+  30   30 4181  688 FO
+  30   30 4181 1528 FO
+  30   30 4181  712 FO
+  30   30 4181  658 FO
+  30   30 4181  664 FO
+gr
+
+c9
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+gs 4120 144 123 1824 rc
+0 sg
+  30   30 4181  211 PO
+  30   30 4181 1833 PO
+  30   30 4181 1059 PO
+  30   30 4181  999 PO
+  30   30 4181 1790 PO
+  30   30 4181  372 PO
+  30   30 4181 1717 PO
+  30   30 4181 1663 PO
+  30   30 4181  503 PO
+  30   30 4181 1355 PO
+  30   30 4181 1569 PO
+  30   30 4181 1491 PO
+  30   30 4181 1372 PO
+  30   30 4181 1361 PO
+  30   30 4181 1387 PO
+  30   30 4181 1430 PO
+  30   30 4181  590 PO
+  30   30 4181 1406 PO
+  30   30 4181 1460 PO
+  30   30 4181 1454 PO
+c9
+  30   30 4181  211 FO
+  30   30 4181 1833 FO
+  30   30 4181 1059 FO
+  30   30 4181  999 FO
+  30   30 4181 1790 FO
+  30   30 4181  372 FO
+  30   30 4181 1717 FO
+  30   30 4181 1663 FO
+  30   30 4181  503 FO
+  30   30 4181 1355 FO
+  30   30 4181 1569 FO
+  30   30 4181 1491 FO
+  30   30 4181 1372 FO
+  30   30 4181 1361 FO
+  30   30 4181 1387 FO
+  30   30 4181 1430 FO
+  30   30 4181  590 FO
+  30   30 4181 1406 FO
+  30   30 4181 1460 FO
+  30   30 4181 1454 FO
+gr
+
+gs 3230 206 1897 1700 rc
+gr
+
+0 sg
+3152  111 mt 
+(Parameters: omega = -1, alpha = -0.2) s
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
